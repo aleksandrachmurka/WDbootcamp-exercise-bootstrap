@@ -1,0 +1,125 @@
+body {
+	text-align: center;
+	padding-top:90px;
+}
+
+/*NAV*/
+
+.navbar {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+	height: 50vh;
+	background-image: url("https://image.ibb.co/cwqFnm/G5pfP.jpg");
+	background-position: center;
+	color: white;
+}
+
+/*GALLERY-CAROUSEL*/
+
+.carousel {
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+[class*="example"]{
+  min-height:300px;
+}
+.example-1 {
+	background-image: url("https://image.ibb.co/cdRqpw/475224.jpg");
+	background-position: center;
+}
+.example-2 {
+	background-image: url("https://image.ibb.co/cdRqpw/475224.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.example-3 {
+	background-image: url("https://image.ibb.co/cdRqpw/475224.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.example-4 {
+	background-image: url("https://image.ibb.co/cdRqpw/475224.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/*TABLE*/
+
+table, .forms {
+	margin-top: 5%;
+}
+
+
+h2 {
+	color: #286090;
+	margin-top: 7%;
+}
+
+
+th {
+	font-weight: bold;
+	text-align: center;
+}
+
+/*COLLAPSE*/
+
+img {
+	padding: 2%;
+}
+
+
+/*FORMS*/
+
+.forms .form-group {
+	margin: 0 20vw;
+}
+
+label {
+	margin-top: 2%;
+}
+
+.forms button {
+	margin: 5%;
+}
+
+/*MEDIA*/
+
+.media {
+	margin: 0 10vw;
+}
+
+.media-body {
+	text-align: left;
+}
+
+[src*="Professor"] {
+	height: 100px;
+	width: 100px;
+}
+
+[src*="typing"] {
+	height: 50px;
+	width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+	.jumbotron-section {
+		padding-top: 250px;
+	}
+
+ 	[placeholder="Search"] {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+
+	.navbar-brand {
+		display: block;
+	}
+}
